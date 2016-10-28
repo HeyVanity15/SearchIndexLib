@@ -15,8 +15,8 @@ namespace SearchEngineLib
     /// </summary>
     public class Index
     {
-        Dictionary<string, List<WordInfo>> _invertedIndex = new Dictionary<string, List<WordInfo>>();
-        DataTable _table = null;
+        private Dictionary<string, List<WordInfo>> _invertedIndex = new Dictionary<string, List<WordInfo>>();
+        private DataTable _table = null;
 
         public Index(DataTable table)
         {
